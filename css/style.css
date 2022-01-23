@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+
+}
+
+.section h1{
+    font-size: 80px;
+    margin: 0 0 30px;
+
+}
+
+.section1{
+    background: chocolate;
+}
+
+.section2{
+    background: rgb(30, 210, 171);
+}
+
+.section3{
+    background: rgb(33, 30, 210);
+}
+
+.section4{
+    background: rgb(180, 30, 210);
+}
+
+.boxbaba{
+    width: 80%;
+    margin: 0 auto;
+    max-height: 100%;
+    overflow: auto;
+    padding-right: 15px;
+    
+}
+
+#fp-nav.fp-right{
+    right: 10px;
+}
+
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  
+    background: #fffefe;
+   
+}
+
+
+/* section 3
+ */
+
+ .slide{
+     font-size: 50px;
+ }

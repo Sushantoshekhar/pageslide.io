@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fullpage.css">
+</head>
+<body>
+    <div id="fullpage">
+       <div class="section section1">
+           <div class="boxbaba">
+               <h1>Section 1</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta aperiam tempore adipisci accusamus perspiciatis? Aut natus perspiciatis quisquam dignissimos, illum quidem doloribus nesciunt ducimus quo tempora! Recusandae, labore velit!lorem30
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto at sint ipsa voluptatibus, eos expedita dolorem eveniet non eum ducimus fugiat tempora quos rerum tempore libero pariatur velit harum illo distinctio cumque!
+               </p>
+           </div>
+       </div>
+       <!-- <div class="section section2">
+           <div class="boxbaba">
+              <h1>Section 2</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta aperiam tempore adipisci accusamus perspiciatis? Aut natus perspiciatis quisquam dignissimos, illum quidem doloribus nesciunt ducimus quo tempora! Recusandae, labore velit!lorem30
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro repellat qui nam odit! Consequuntur, reprehenderit mollitia placeat atque, distinctio quis recusandae perferendis debitis aut ipsum cupiditate? Cupiditate eaque eos ex?
+
+              </p>
+         </div>
+        </div> -->
+        <div class="section section3">
+            <div class="slide" style="background-color: blue;"> Slide 1 </div>
+	        <div class="slide" style="background-color: red;">  Slide 2 </div>
+	        <div class="slide" style="background-color: yellow;"> Slide 3 </div>
+	        <div class="slide" style="background-color: green;"> Slide 4 </div>
+        </div>
+
+        <div class="section section4">
+            <div class="boxbaba">
+              <h1>Section 4</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta aperiam tempore adipisci accusamus perspiciatis? Aut natus perspiciatis quisquam dignissimos, illum quidem doloribus nesciunt ducimus quo tempora! Recusandae, labore velit!lorem30
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum perferendis qui? Corporis rerum ipsam voluptatem tenetur, minus amet debitis eaque commodi inventore iusto veritatis consectetur perferendis dignissimos vitae quis?
+
+               </p>
+           </div>
+        </div>
+   
+   
+    </div>
+
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script type="text/javascript" src="./js/fullpage.js"></script>
+ <script type="text/javascript" >
+     $(document).ready(function(){
+        $('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true,
+
+        // this is for naviation button on rightside if you want then true else false
+        // navigation:true,
+	   });
+     })
+ </script>
+</body>
+</html>
